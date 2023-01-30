@@ -1,27 +1,27 @@
 module.exports = {
-  title: '漫步coding的博客',
-  description: '公众号: 漫步coding, 欢迎大家关注， 一个聚焦于算法、数据库、架构的公众号',
+  title: '大前端漫谈',
+  description: '公众号: 大前端漫谈, 欢迎大家关注， 一个聚焦于web、混合开发、架构的公众号',
   themeConfig: {
-    nav: [
-      { text: '首页', link: '/' },
-      { 
-          text: '漫步coding 博客', 
-          items: [
-              { text: 'Github', link: 'https://github.com/easyhappy/travel-coding' },
-              { text: '公众号', link: 'https://mp.weixin.qq.com/s/Npkk0oHEszZrUP2yRiTaSA' }
-          ]
-      }
-    ],
+    // nav: [
+    //   { text: '首页', link: '/' },
+    //   { 
+    //       text: '大前端漫谈 博客', 
+    //       items: [
+    //           { text: 'Github', link: 'https://github.com/easyhappy/travel-coding' },
+    //           { text: '公众号', link: 'https://mp.weixin.qq.com/s/Npkk0oHEszZrUP2yRiTaSA' }
+    //       ]
+    //   }
+    // ],
     sidebar: [
       {
-        title: 'mysql',
+        title: 'css小册',
         path: '/',
-        collapsable: false, // 不折叠
+        collapsable: true, // 不折叠
         children: [
-            { title: "前言", path: "/mysql/brief"},
+          { title: "前言", path: "/css/前言", },
+          { title: "css", path: "/css/brief", },
         ]
       },
-  
       {
         title: '关于我',
         path: '/',
