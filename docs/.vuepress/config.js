@@ -18,7 +18,7 @@ module.exports = {
         path: '/',
         collapsable: true, // 不折叠
         children: [
-          { title: "前言", path: "/css/前言", },
+          { title: "居中", path: "/css/居中", },
           { title: "css", path: "/css/brief", },
         ]
       },
